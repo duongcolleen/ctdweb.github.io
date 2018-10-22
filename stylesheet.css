@@ -1,0 +1,453 @@
+body{
+    background-color: #F2F2F2;
+    margin: 0;
+}
+
+/* Header */
+    #PinkStrip{ /* Top Main Strip */
+        height: 10px;
+        background-color: #E4C0CE;
+    }
+
+    .OnionLogo{ /* Main Logo with 'CD' */
+        text-align: center;
+    }
+
+    #Icon{ /* Social Media Icons */
+        height: 40px;
+    }
+
+    #Heading{
+        display: inline-block;
+        text-align: left;
+        font-family:  'Oswald', sans-serif;
+        font-size: 30px;
+        color: #565052; /* #565052 for Dark Grey */
+        font-weight: bold;
+    }
+
+        /* Navigation Bar */
+        #NavBar{
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #NavBar a{
+            text-decoration: none;
+        }
+
+        a, a:visited{
+            color: #E4C0CE;
+        }
+
+        a:link{
+            color: #E4C0CE;
+        }
+
+        a:hover{
+            color: #565052;
+        }
+
+        .active{
+            font-weight: bold;
+            font-size: 25px;
+            color: black;
+        }
+/* Header */
+
+/* HOMEPAGE CODE */
+    #HomeImage{ /* Showcased Image on Home Page */
+        width: 100%;
+    }
+
+    /* About Me Homepage Information */
+    img#ColleenPicture{
+        float: left;
+        display: inline-block;
+        border-radius: 50%;
+        height: 25%;
+        margin: 10px;
+    }
+
+    #AboutText{
+        padding: 5px;
+        margin: 30px;
+        font-family: 'Raleway', sans-serif;
+        color: grey;
+        font-size: 15px;
+    }
+
+    #Copyright{
+        font-style: italic;
+        font-size: 10px;
+    }
+
+    #ContactInfo{
+        margin: 30px;
+        float: left;
+    }
+    /* About Me Homepage Information */
+
+    /* Contact Information */
+    #ThinPinkStrip{
+        height: 1px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: #E4C0CE;
+        size: 50px;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #E4C0CE;
+    }
+
+    #Email{
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        color: grey;
+        font-size: 12px;
+        position: relative;
+        float: left;
+        margin-left: 10px;
+    }
+
+    #EmailPic{
+        height: 15px;
+        display: inline-block;
+    }
+
+    #Phone{
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        color: grey;
+        font-size: 12px;
+        position: relative;
+        float: left;
+        margin-left: 10px;
+    }
+
+
+    #PhonePic{
+        height: 20px;
+        display: inline-block;
+    }
+
+    #Resume{
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        color: grey;
+        font-size: 12px;
+        position: relative;
+        float: left;
+        margin-left: 10px;
+    }
+
+
+    #ResumePic{
+        height: 25px;
+        display: inline-block;
+    }
+    /* Contact Information */
+/* HOMEPAGE CODE */
+
+/* Body */
+    /* Project Related Images */
+    .container { /* Project Images */
+        position: relative;
+        width: 100%;
+        margin: 5px;
+    }
+
+    .container:hover .overlay {
+        opacity: 0.4;
+    }
+
+    .overlay { /* Project Images */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: black;  
+    }
+
+    .ProjectTitle{
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 5%;
+    }
+
+    #projectImg{
+        width: 100%;
+    }
+    /* Project Related Images */
+
+    /* Specific Projects */
+    .SpecificProjectTitle{
+        margin: 20px;
+        padding: 10px;
+        background-color: #E4C0CE;
+        font-family: 'Raleway', sans-serif; 
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .SpecificProjecttitle>div{
+        font-size: 10px;
+    }
+
+    .ProjectPicture{
+        width: 100%;
+    }
+
+    .ProjectPicture>img{
+        width: 100%;
+    }
+
+    .GridProjectPicture{
+        text-align: center;
+    }
+
+    .GridProjectPicture>img{
+        width: 48%;
+        padding: 5px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .GridProjectPicture-Small{
+        text-align: center;
+    }
+
+    .GridProjectPicture-Small>img{
+        width: 23%;
+        padding: 5px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .GridProjectPicture-SuperSmall{
+        text-align: center;
+    }
+
+    .GridProjectPicture-SuperSmall>img{
+        width: 18%;
+        padding: 5px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    /* Art grid */
+        .gridrow{
+            display: flex; 
+            flex-wrap: wrap; 
+            padding: 0px 5px;
+        }
+
+        .gridcolumn{
+            flex: 25%; 
+            padding: 0px, 5px; 
+        }
+    
+        .gridcolumn img{
+            margin-top: 5px; 
+            vertical-align: middle;
+        }
+    /* Art grid */
+
+    #SectionTitle{
+        color: #E4C0CE;
+        font-size: 15px;
+    }
+
+    .ProjectDescrip{
+        margin: 10px;
+        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        color: #565052;
+        font-size: 12px;
+    }
+    /* Specific Projects */
+
+    /* Art Page */
+    .gridArtwork{
+        width: 100%; 
+        padding-bottom: 15px; 
+        padding-top: 5px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .gridRow{
+        position: relative;
+        display: inline-block;
+        width: 30%;
+        margin: 5px;
+    }
+
+    #imgArt{
+        width: 100%;
+        float: left;
+        display: inline-block;
+        border-radius: 5%;
+    }
+
+    .gridRow:hover .overlay2{
+        opacity: 0.4; 
+        transform: scale(1.05);
+        transition: .5s ease;
+
+    }
+
+    .gridRow:hover #imgArt{
+        transform: scale(1.05);
+        transition: .5s ease;
+    }
+    
+    .overlay2{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 5px;
+        right: 5px;
+        height: 100%;
+        width: 96%;
+        opacity: 0;;
+        background-color: black; 
+        border-radius: 5%;
+    }
+
+    .ArtTitle{
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        font-weight: bold;
+        font-size: 120%;
+        padding: 10%;
+        text-align: left;
+    }
+
+        /* Specific Art Page */
+
+        .GridPic{
+            width: 100%; 
+            padding-bottom: 15px; 
+            padding-top: 5px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .GridPicRow{
+            position: relative;
+            display: inline-block;
+            width: 30%;
+            margin: 5px;
+        }
+
+        .ImgPic{
+            width: 100%;
+            height: 40%;
+            float: left; 
+            display: inline-block;
+        }
+
+        .gridPicRow:hover .ImgPic{
+            opacity: 0.7;
+            transition: .5s ease;
+        }
+
+        .TopRow{
+            text-align: center;
+        }
+
+        .TopRow>h3{
+            font-family: 'Oswald', sans-serif;
+            font-size: 15px;
+            color: #565052;
+        }
+
+        .TopRow>p{
+            font-family: 'Raleway', sans-serif;
+            font-size: 12px;
+            color: #565052;
+        }
+
+        .MainImage{
+            width: 70%;
+            margin: 20px;
+        }
+        /* Specific Art Page */
+
+    /* Art Page */
+
+    /* Code */
+.container-2 { /* Project Images */
+    width: 100%;
+    text-align: center;
+}
+
+.codeinfo{
+    margin: 10px;
+    width: 100%;
+}
+
+.container-2>.codeinfo>h3{
+    text-align: left;
+    font-family: 'Oswald', sans-serif; 
+    font-size: 12px;
+    font-weight: bold;
+    color: #565052;
+}
+
+.container-2>.codeinfo>p{
+    text-align: left;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 12px;
+    color: #565052;
+}
+
+.container-2>.codeinfo>a{
+    float: left;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 12px;
+    color: #565052;
+}
+.container-2>.codeinfo>a:hover{
+    color: #E4C0CE;
+}
+
+.codeimg{
+    height: 30%;
+    margin: 10px;
+}
+    /* Code */
+/* Body */
+
+footer{
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#FooterImage{
+    text-align: center;
+    width: 100%;
+}
+
+#FooterImage2{
+    text-align: center;
+    width: 100%;
+    opacity: 0.5;
+}
+
+
+
+
+
+
