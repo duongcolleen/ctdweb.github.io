@@ -428,6 +428,12 @@ body{
     font-family: 'Raleway', sans-serif;
     color: black;
 }
+
+.container-2>.codeinfo>p>b{
+    color: #E4C0CE;
+    font-size: 14px;
+    font-weight: 700;
+}
     
 }
     /* Code */
