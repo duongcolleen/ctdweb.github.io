@@ -216,7 +216,8 @@ body{
     }
 
     .ProjectPicture{
-        width: 100%;
+        width: 96%;
+        margin: 2%;
     }
 
     .ProjectPicture>img{
@@ -276,15 +277,26 @@ body{
 
     #SectionTitle{
         color: #E4C0CE;
-        font-size: 15px;
+        font-size: 20px;
+        font-weight: bolder;
     }
 
     .ProjectDescrip{
-        margin: 10px;
+        margin-left: 2%;
+        margin-right: 2%;
         text-align: left;
         font-family: 'Raleway', sans-serif;
         color: #565052;
         font-size: 12px;
+    }
+
+    .ProjectCaption{
+        margin-top: 5px;
+        text-align: left;
+        font-family: 'Raleway', sans-serif; 
+        color: grey;
+        font-size: 10px;
+        font-style: oblique;
     }
     /* Specific Projects */
 
