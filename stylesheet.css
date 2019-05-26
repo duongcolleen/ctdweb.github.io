@@ -96,7 +96,7 @@ body{
     }
 
     #ContactInfo{
-        margin: 30px;
+        margin: 2%;
         float: left;
     }
     /* About Me Homepage Information */
@@ -107,7 +107,7 @@ body{
         margin-left: 20px;
         margin-right: 20px;
         background-color: #E4C0CE;
-        size: 50px;
+        size: 100%;
         font-weight: bold;
         font-family: 'Raleway', sans-serif;
         color: #E4C0CE;
@@ -148,15 +148,23 @@ body{
         display: inline-block;
         font-family: 'Raleway', sans-serif;
         color: grey;
-        font-size: 12px;
         position: relative;
         float: left;
-        margin-left: 10px;
     }
+
+.Resume{
+    height: 100%;
+    display: block;
+}
+
+.ResumePic{
+    height: 100%;
+    margin: 2%;
+}
 
 
     #ResumePic{
-        height: 25px;
+        height: 100%;
         display: inline-block;
     }
     /* Contact Information */
@@ -320,7 +328,7 @@ body{
         width: 100%;
         float: left;
         display: inline-block;
-        border-radius: 50%;
+        border-radius: 2%;
     }
 
     .gridRow:hover .overlay2{
