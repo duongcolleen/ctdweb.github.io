@@ -439,6 +439,14 @@ body{
     width: 100%;
 }
 
+.codeimg-2{
+    width: 40%;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+
 .container-2>img{
     width: 80%;
 }
