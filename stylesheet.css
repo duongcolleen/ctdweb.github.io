@@ -701,7 +701,7 @@ footer{
     opacity: 0.5;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 813px) {
     .GridPicRow{
         width: 30.8%;
 
@@ -775,6 +775,13 @@ footer{
         color: #565052;
     }
     
+    ul>.RightNavBar>li>.active{
+        font-family: 'Arial-Black', sans-serif;
+        font-weight: bolder;
+        color: #565052;
+    }
+
+    
     /* NAVBAR */
     
     .ProjectTitle{
@@ -801,7 +808,7 @@ footer{
 }
 
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 812px) {
     .GridPicRow{
         width:47.5%;
     }
