@@ -10,94 +10,84 @@
         <!-- Link to Stylesheet -->
         <link href="stylesheet.css" type="text/css" rel="stylesheet"/>
         
+        <!-- Mobile Menu Stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
         <!-- Import Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
         
-        <br>
-        <!-- Top Center Bar with Social Media --> 
-        <div class="OnionLogo"><a href="index.html"><img src="image/onion.svg" alt="Onion Logo"></a>
-            <div id="Heading">
-                &nbsp;
-                COLLEEN DUONG
-                <br>
-                &nbsp;
-                <!-- LinkedIn -->
-                <a href="https://www.linkedin.com/in/colleen-duong-2019aa144/"><img id="Icon" src="image/socialmedia/LinkedInButton.png" alt="LinkedIn"></a>
-                <!-- LEDA -->
-                <a href="https://ledaconnect.com/userprofile/index/25802"><img id="Icon" src="image/socialmedia/LEDAButton.png" alt="LEDA"></a>  
-                <!-- Instagram -->
-                <a href="https://www.instagram.com/mintyeri/"><img id="Icon" src="image/socialmedia/InstagramButton.png" alt="Instagram"></a>  
-                <!-- Resume -->
-                <a href="ColleenDuong_Resume.pdf"><img id="Icon" src="image/socialmedia/ResumeButton.png" alt="Resume"></a>  
+        
+        
+        <!-- NAVBAR -->
+        <nav>
+            <div class="toggle">
+                <i class="fa fa-bars menu" aria-hidden="true"></i>
             </div>
-        </div>
-        <!-- Top Center Bar with Social Media -->     
-    
-        <br>
-        <br>
+            
+            <a href="index.html"><img class="ColleenLogo" src="image/Colleen.svg" alt="Colleen's Logo" ></a>
+            
+            <ul>
+                <li><a href="architecture.html">architecture</a>
+                </li>
+                <li><a href="animation.html">animation</a>
+                </li>
+                <li><a href="design.html">design</a>
+                </li>
+                <li><a href="illustration.html">illustrations</a>
+                </li>
+                
+                <div class="ThinPinkStrip"></div>
+                
+                <div class="RightNavBar">
+                    <li><a href="about.html">about</a>
+                    </li>
+                    <li><a href="ColleenDuong_portfolio.pdf">portfolio</a>
+                    </li>
+                    <li><a href="contact.html">contact</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+        <!-- NAVBAR -->
         
-        <!-- Navigation Bar -->
-        <div id="NavBar">
-            <a href="index.html">HOME</a>
-            &nbsp;
-            &nbsp;
-            <a class="active" href="projects.html">PROJECTS</a>
-            &nbsp;
-            &nbsp;
-            <a href="animation.html">ANIMATION</a>
-            &nbsp;
-            &nbsp;
-            <a href="art.html">ILLUSTRATION</a>
-            &nbsp;
-            &nbsp;
-            <a href="ColleenDuong_Portfolio.pdf">PORTFOLIO</a>
-        </div>
-        <!-- Navigation Bar -->
     </head>
     
     
     <body>
-        <br>
-        <div id="ThinPinkStrip"></div>
-        
-        <!-- Introducing the Project (Basic Information) -->
-        <div class="SpecificProjectTitle">
-            SCULPTURE PARK
-            <div class="ProjectInfo">
-                <br>
-                <b>Year:</b> Fall 2019
-                <br>
-                <b>Location:</b> Highland Park, Pittsburgh, PA
-                <br>
-                <b>Project:</b> Design Proposal
-                <br>
-                <b>Studio:</b> INFRAstructure
-                <br>
-                <b>Partner:</b> Claire Koh
-                <br>
-                <b>Professor:</b> Christine Mondor
-            </div>
+        <div id="ProjectTitle">
+        Sculpture Park
         </div>
         
-        <!-- Part 1 of Project (Picture + Description) -->        
+        <div id="ProjectDetails">
+        Fall 2019	| INFRAstructure Studio|	Highland Park, PA	| advised by Christine Mondor |	in collaboration with: Claire Koh
+        </div>
+        
+        <div id="ProjectInfo">
+            <p>This project aims to act as a recreational site for learning and the environ- ment. This project assumes that the animals have been freed from the High- land Park Zoo and the existing parking lot is no longer there, leaving the valley clear for design. Taking into consideration the existing reservoirs, the Sculp- ture Park collects the water from the neighborhood above at various entry points and brings the water down into the site.</p>
+            
+            <p>Throughout the park there are different ecological conditions located on this site depending on the part of the valley it is within: wetlands, grasslands, streams, forests, etc. The site is constantly changing depending on the weather and the season conditions, which will affect the experiential aspect of the site for visitors.</p>
+        </div>
+        
         <div class="ProjectPicture">
             <img src="image/sculpturepark/render_aerial.jpg">
             <div class="ProjectCaption">
-            Aerial Shot of Sculpture Park in Highland Park Valley.
+                Aerial Shot of Sculpture Park in Highland Park Valley.
             </div>
         </div>
+        
+        <br>
+        
         <div class="ProjectPicture">
             <img src="image/sculpturepark/siteplan.jpg">
             <div class="ProjectCaption">
-            Site Plan.
+                Site Plan.
             </div>
         </div>
-        <div class="ProjectDescrip">
-        <b id="SectionTitle">THE SITE</b>
-            <br><br>
+        
+        <div id="ProjectInfo">
             <i>This project aims to act as a recreational site for learning and the environment.</i>
+            
             <br><br>
             The sculpture park is separated into four different zones that have four different conditions and experiences. 
             <br><br>
@@ -109,140 +99,144 @@
             <br><br>
             The <u><b>Fourth Zone</b></u> is the where the main water storage is located. It is also where the main entrance to the park is and where the main parking lot is located. This zone contains the visitor's center. The water from this water storage is collected and stored until there is an overflow of water, which will flow into an existing hill underneath the bridge at the end of the site. This water will directly go into the Allegheny River. 
             <br><br>
+            
             <b id="SectionTitle">HARDSCAPES</b>
             <br><br>
             Each zone is separated by <b><u>dams</u></b> that allow for water to overflow from one zone to another (each zone is at a different elevation from the last) and also acts as a bridge for the main circulatory path on the site for visitors. These dams are also shaped in a way that guide the water and collect them into the different water channels in each zone. 
         </div>
         
-        <br><br>
-        
-        <!-- Part 2 of Project (Picture + Description) -->        
         <div class="GridProjectPicture-Small">
             <img src="image/sculpturepark/analysis_circulation.jpg">
             <img src="image/sculpturepark/analysis_ecosystem.jpg">
             <img src="image/sculpturepark/analysis_watercollection.jpg">
             <div class="ProjectCaption">
-            Analysis Diagrams.
+                Site Data Analysis Diagrams. 
             </div>
         </div>
-        <br>
-        <div class="ProjectDescrip">
-        <b id="SectionTitle">SITE ANALYSIS</b>
-            <br><br>
+        
+        <div id="ProjectInfo">
+            <br>
             Circulation and Existing Rainwater Collection in the Valley. This diagram studies the main entrance points to the site below. These are the four valley entrances and the main entrance connected to the road. The valley entrances allow for direct circulation from the upper neighborhoods to the valley below for residents of Highland Park. Each of these entrance points has a staircase that allow for people to easily access the site from different points.
             <br><br>
             Existing and Potential Ecologies on the site (household, water, dryland, forests, river, etc.). Using information about the different types of ecologies on the site and understanding how dense the population is in differing neighborhoods on different sides of the valley, it allowed for a better understanding of where entrances should be priorized on the site and what types of experiential and natural conditions should be where in the valley.  
             <br><br>
-            Water collection from the neighborhood into the site. An understanding of where water will enter the site when it rains and how much water from each point will be collected. 
+            Water collection from the neighborhood into the site. An understanding of where water will enter the site when it rains and how much water from each point will be collected.
+            <br>
         </div>
         
-        <br><br>
-        
-        <!-- Part 3 of Project (Picture + Description) -->        
         <div class="ProjectPicture">
             <img src="image/sculpturepark/bldgplan1.jpg">
             <div class="ProjectCaption">
-            Parking Lot Plan.
+                Parking Lot &amp; Entrance Plan.
             </div>
             <br>
             <img src="image/sculpturepark/bldgplan2.jpg">
             <div class="ProjectCaption">
-            Visitor's Center Plan.
+                Visitor's Center Plan.
             </div>
             <br>
             <img src="image/sculpturepark/bldgplan3.jpg">
             <div class="ProjectCaption">
-            Learning Center Plan.
+                Learning Center Plan.
             </div>
             <br>
             <img src="image/sculpturepark/bldgplan4.jpg">
             <div class="ProjectCaption">
-            Indoor &amp; Outdoor Art Center Plan.
+                Indoor &amp; Outdoor Art Center Plan.
             </div>
             <br>
             <img src="image/sculpturepark/diagram_axon.jpg">
             <div class="ProjectCaption">
-            Diagrams of different experiences scattered across the site.
+                Diagrams of different experiences scattered across the site.
             </div>
         </div>
-        <div class="ProjectDescrip">
-        <b id="SectionTitle">THE EXPERIENCE</b>
-            <br><br>
+        
+        <div id="ProjectInfo">
+            <br>
             The site allows for visitors to choose their own path that they want to go through on the site. However, no matter what pathway they choose, they have the opportunity to experience all the different components located on the site, such as sculpture islands, soft waterfronts, bridgewalks, ampitheater and stage performances, etc. 
+            <br>
         </div>
         
-        <br><br>
-        
-        <!-- Part 4 of Project (Picture + Description) -->        
         <div class="ProjectPicture">
             <img src="image/sculpturepark/section_1.jpg">
             <div class="ProjectCaption">
-            Parking Lot Section.
+                Parking Lot Section.
+            </div>
+            <br>
+            <img src="image/sculpturepark/elevation_1.jpg">
+            <div class="ProjectCaption">
+                Visitor Center's Elevation.
             </div>
             <br>
             <img src="image/sculpturepark/section_2.jpg">
             <div class="ProjectCaption">
-            Learning Center Section.
-            </div>
-            <br>
-            <img src="image/sculpturepark/section_3.jpg">
-            <div class="ProjectCaption">
-            Indoor Art Center Section.
-            </div>
-            <br>
-            <img src="image/sculpturepark/section_4.jpg">
-            <div class="ProjectCaption">
-            Valley Section.
+                Learning Center Section.
             </div>
             <br>
             <img src="image/sculpturepark/elevation_2.jpg">
             <div class="ProjectCaption">
-            Visitor's Center Elevation.
+                Learning Center Elevation.
             </div>
-            <img src="image/sculpturepark/elevation_1.jpg">
+            <br>
+            <img src="image/sculpturepark/section_3.jpg">
             <div class="ProjectCaption">
-            Learning Center Elevation.
+                Indoor Art Center Section.
             </div>
             <br>
             <img src="image/sculpturepark/elevation_3.jpg">
             <div class="ProjectCaption">
-            Indoor Art Center Elevation.
+                Indoor Art Center Elevation.
+            </div>
+            <br>
+            <img src="image/sculpturepark/section_4.jpg">
+            <div class="ProjectCaption">
+                Valley Section.
             </div>
         </div>
-        <div class="ProjectDescrip">
-        <b id="SectionTitle">THE ARCHITECTURE</b>
-            <br><br>
+        
+        <div id="ProjectInfo">
+            <br>
             The architecture is integrated into the landscape. Each building hugs the edge of the landscape and actually brings it into the building when necessary. The side that hugs the landscape is where more private activities take place, depending on the building. The more open side of the building is a glass facade that allows for people to have a full view of the water that they are next to in the building. Each building also integrates a different roof condition. The visitor center and learning center have a roof that slants into the landscape and becomes a part of the landscape. This allows for people to go onto the roof and see an unobstructed view of the entire site in different perspectives. The art center's roof is split into 2 to allow for light to come into the building and hit onto the artwork. The learning center's roof is also split into 2 to allow for light to filter into the hallway that is pushed against the landscape. 
         </div>
         
-        <br><br>
-        
-        <!-- Part 3 of Project (Picture + Description) -->        
         <div class="ProjectPicture">
             <img src="image/sculpturepark/render_sunny.jpg">
             <div class="ProjectCaption">
-            Sunny Day Visitor's Center Entrance Render.
+                Sunny Day at the Visitor's Center.
             </div>
             <br>
             <img src="image/sculpturepark/render_rain.jpg">
             <div class="ProjectCaption">
-            Rainy Day Sculpture Park, Outdoor Art Center &amp; Bridgewalk pathway Render.
+                Rainy Day at the Outdoor Art Center &amp; Bridgewalk Pathway.
             </div>
             <br>
             <img src="image/sculpturepark/render_snow.jpg">
             <div class="ProjectCaption">
-            Snowy Day Learning Center Render.
+                Snowy day at the Learning Center.
             </div>
         </div>
-        <div class="ProjectDescrip">
-        <b id="SectionTitle">NATURAL IMPACTS ON THE SITE</b>
-            <br><br>
-            Depending on the season and the weather conditions, the site will change how visitors use and experience the site. When there is heavy rain they will have canopy coverages that will still allow them to see how the water overflows the dams and see how small the sculpture islands become. Winter will bring the possibilities of frozen water, which will bring new pathway conditions and activities for visitors. 
+        
+        <div id="ProjectInfo">
+            <br>
+             Depending on the season and the weather conditions, the site will change how visitors use and experience the site. When there is heavy rain they will have canopy coverages that will still allow them to see how the water overflows the dams and see how small the sculpture islands become. Winter will bring the possibilities of frozen water, which will bring new pathway conditions and activities for visitors. 
         </div>
         
-        <br><br>
+        <!-- Clickable Mobile NavBar -->
+        <script
+          src="https://code.jquery.com/jquery-3.5.1.js"
+          ></script>
+        <script type="text/javascript">
+            $(document).ready(function(){ $('.menu').click(function(){ $('ul').toggleClass('active');})})
+        </script>
+        <!-- Clickable Mobile NavBar -->
     </body>
-    
 
+    
+        <div id="ThinPinkStrip"></div>
+
+
+    <!--<footer>
+        <img id="FooterImage" src=image/buildings.svg Alt="Footer Image">
+    </footer>-->
 </html>
 

@@ -1,60 +1,32 @@
 body{
-    background-color: #F2F2F2;
+    background-color: #ECEDEC;
     margin: 0;
 }
 
 /* Header */
-    #PinkStrip{ /* Top Main Strip */
-        height: 10px;
-        background-color: #E4C0CE;
+    .toggle{
+        display: none;
     }
 
-    .OnionLogo{ /* Main Logo with 'CD' */
-        text-align: center;
+    #ColleenLogo{
+        display: none;
     }
 
-    #Icon{ /* Social Media Icons */
-        height: 40px;
-    }
-
-    #Heading{
-        display: inline-block;
-        text-align: left;
-        font-family:  'Oswald', sans-serif;
-        font-size: 30px;
-        color: #565052; /* #565052 for Dark Grey */
-        font-weight: bold;
-    }
-
-        /* Navigation Bar */
-        #NavBar{
-            font-family: 'Oswald', sans-serif;
-            font-size: 20px;
-            text-align: center;
-        }
-
-        #NavBar a{
-            text-decoration: none;
-        }
-
-        a, a:visited{
-            color: #E4C0CE;
-        }
-
-        a:link{
-            color: #E4C0CE;
-        }
-
-        a:hover{
-            color: #565052;
-        }
-
-        .active{
-            font-weight: bold;
-            font-size: 25px;
-            color: black;
-        }
 /* Header */
+
+/* Top Quote */
+#centerquote{
+    text-align: center;
+    font-family: 'Arial-Black', sans-serif;
+    font-size: 24px;
+    color: #E4C0CE;
+    margin: 10% 10% 15% 10%
+}
+
+#centerquote>b{
+    color: #AEBDB0;
+}
+/* Top Quote */
 
 /* Separation of Work */
     #ThinStrip{ /* Top Main Strip */
@@ -63,150 +35,70 @@ body{
         margin-right: 5%;
         background-color: #E4C0CE;
     }
-
-/* HOMEPAGE CODE */
-    #HomeImage{ /* Showcased Image on Home Page */
-        width: 100%;
-    }
-
-    /* About Me Homepage Information */
-    img#ColleenPicture{
-        float: left;
-        display: inline-block;
-        border-radius: 50%;
-        height: 25%;
-        margin: 10px;
-    }
-
-    #AboutText{
-        padding: 5px;
-        margin: 30px;
-        font-family: 'Raleway', sans-serif;
-        color: grey;
-        font-size: 15px;
-    }
-
-    #AboutText b{
-        color: #E4C0CE;
-    }
-
-    #Copyright{
-        font-style: italic;
-        font-size: 10px;
-    }
-
-    #ContactInfo{
-        margin: 2%;
-        float: left;
-    }
-    /* About Me Homepage Information */
-
-    /* Contact Information */
-    #ThinPinkStrip{
-        height: 1px;
-        margin-left: 20px;
-        margin-right: 20px;
-        background-color: #E4C0CE;
-        size: 100%;
-        font-weight: bold;
-        font-family: 'Raleway', sans-serif;
-        color: #E4C0CE;
-    }
-
-    #Email{
-        display: inline-block;
-        font-family: 'Raleway', sans-serif;
-        color: grey;
-        font-size: 12px;
-        position: relative;
-        float: left;
-        margin-left: 10px;
-    }
-
-    #EmailPic{
-        height: 15px;
-        display: inline-block;
-    }
-
-    #Phone{
-        display: inline-block;
-        font-family: 'Raleway', sans-serif;
-        color: grey;
-        font-size: 12px;
-        position: relative;
-        float: left;
-        margin-left: 10px;
-    }
-
-
-    #PhonePic{
-        height: 20px;
-        display: inline-block;
-    }
-
-    #Resume{
-        display: inline-block;
-        font-family: 'Raleway', sans-serif;
-        color: grey;
-        position: relative;
-        float: left;
-    }
-
-.Resume{
-    height: 100%;
-    display: block;
-}
-
-.ResumePic{
-    height: 100%;
-    margin: 2%;
-}
-
-
-    #ResumePic{
-        height: 100%;
-        display: inline-block;
-    }
-    /* Contact Information */
-/* HOMEPAGE CODE */
+/* Separation of Work */
 
 /* Body */
-    /* Project Related Images */
+   
+    /* PROJECT GRID */
     .container { /* Project Images */
         position: relative;
         width: 100%;
-        margin: 5px;
+        margin-top: 1%;
     }
 
     .container:hover .overlay {
-        opacity: 0.4;
+        opacity: 0.7;
     }
 
-    .overlay { /* Project Images */
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
+    .ProjectPicture{
         width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: black;  
-    }
-
-    .ProjectTitle{
-        color: white;
-        font-family: 'Oswald', sans-serif;
-        font-weight: bold;
-        font-size: 30px;
-        padding: 5%;
     }
 
     #projectImg{
         width: 100%;
     }
     /* Project Related Images */
+
+ /* SPECIFIC PROJECTS */
+    #ProjectTitle{
+        color: #525252;
+        font-family: 'Arial-black', sans-serif;
+        font-size: 30px;
+        margin-left: 2%;
+        margin-top: 5%;
+    }
+
+    #ProjectDetails{
+        color: #777777;
+        font-family: 'Arial', sans-serif;
+        font-size: 10px; 
+        margin-left: 2%;
+    }
+
+    #ProjectInfo{
+        color: #525252;
+        font-family: 'Arial', sans-serif;
+        font-weight: medium;
+        font-size: 12px; 
+        margin-left: 2%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    #ProjectPicture{
+        width: 100%;
+    }
+
+    .ProjectCaption{
+        margin-top: 5px;
+        text-align: left;
+        font-family: 'Raleway', sans-serif; 
+        color: grey;
+        font-size: 8px;
+        font-style: oblique;
+        margin-left: 2%;
+    }
+////
 
     /* Specific Projects */
     .SpecificProjectTitle{
@@ -223,10 +115,6 @@ body{
         font-size: 10px;
     }
 
-    .ProjectPicture{
-        width: 96%;
-        margin: 2%;
-    }
 
     .ProjectPicture>img{
         width: 100%;
@@ -293,7 +181,7 @@ body{
 
     #SectionTitle{
         color: #E4C0CE;
-        font-size: 20px;
+        font-size: 16px;
         font-weight: bolder;
     }
 
@@ -301,14 +189,19 @@ body{
         margin-left: 2%;
         margin-right: 2%;
         text-align: left;
-        font-family: 'Raleway', sans-serif;
+        font-family: 'Arial', sans-serif;
         color: #565052;
         font-size: 12px;
     }
 
+    .ProjectDescrip>center>a:hover{
+        font-family: 'Arial', sans-serif;
+        color: #565052;
+    }
+
     .ProjectCaption{
         margin-top: 5px;
-        text-align: left;
+        text-align: center;
         font-family: 'Raleway', sans-serif; 
         color: grey;
         font-size: 10px;
@@ -371,27 +264,28 @@ body{
             padding-bottom: 15px; 
             padding-top: 5px;
             float: left;
-            text-align: left;
             margin-left: 2%;
             margin-right: 2%;
+            text-align: center;
         }
 
         .GridPicRow{
             display: inline-block;
             width: 32%;
             margin: 5px;
-        }
-
-        .ImgPic{
-            width: 100%;
-            float: left; 
-            display: inline-block;
+            align-content: center;
         }
 
         .gridPicRow:hover .ImgPic{
             opacity: 0.8;
             transform: scale(1.02);
             transition: .5s ease;
+        }
+
+        .ImgPic{
+            width: 100%;
+            float: left; 
+            display: inline-block;
         }
 
         .IllustrationDescrip{
@@ -447,6 +341,7 @@ body{
     width: 100%;
 }
 
+
 .codeimg-2{
     width: 40%;
     padding: 5px;
@@ -454,10 +349,26 @@ body{
     display: inline-block;
 }
 
-
 .container-2>img{
     width: 80%;
 }
+
+.container-2>a{
+    color: #E4C0CE;
+    font-family: 'Arial', sans-serif;
+    size: 12px;
+}
+
+.container-2>#Projecttitle>a{
+    color: #E4C0CE;
+    font-family: 'Arial-black', sans-serif;
+}
+
+.container-2>#Projecttitle>a:hover>u{
+    color: black;
+    font-family: 'Arial-black', sans-serif;
+}
+
 
 .container-2>.codeinfo>h3{
     text-align: left;
@@ -503,6 +414,267 @@ body{
     /* Code */
 /* Body */
 
+/* HOMEPAGE CODE */
+    #HomeImage{ /* Showcased Image on Home Page */
+        width: 100%;
+    }
+
+    /* About Me Homepage Information */
+    /* OLD CODE - CIRCLE
+    img#ColleenPicture{
+        float: left;
+        display: inline-block;
+        border-radius: 50%;
+        height: 25%;
+        margin: 10px;
+    }
+    */
+
+    img#ColleenPicture{
+        float: left;
+        display: inline-block;
+        height: 50%;
+        margin-left: 30px;
+        margin-right: 3%;
+    }
+
+    #AboutText{
+        padding: 5px;
+        margin: 30px;
+        font-family: 'Arial', sans-serif;
+        color: grey;
+        font-size: 15px;
+    }
+
+    #AboutText b{
+        color: #E4C0CE;
+    }
+
+    #AboutText>p>a{
+        color:#E4C0CE;
+        text-decoration: none;
+        font-family: 'Arial-black', sans-serif;
+    }
+
+    #AboutText>p>a:hover{
+        color:#565052;
+        text-decoration: none;
+    }
+
+    #OpeningAboutText{
+        color: #AEBDB0;
+        font-family: 'Arial-Black', sans-serif;
+    }
+
+    #Copyright{
+        font-style: italic;
+        font-size: 10px;
+    }
+
+    #ContactInfo{
+        margin: 2%;
+        float: left;
+    }
+
+    .button {
+        background-color: #ECEDEC;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #AEBDB0;
+        color: #AEBDB0;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    .button:hover{
+        background: #AEBDB0;
+        color: white;
+    }
+
+/* CONTACT PAGE */
+.Contact{
+    text-align: center;
+}
+
+.Contact-Column-1{
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    color: #565052;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+}
+
+    .Contact-Column-1>b{
+        font-family: 'Arial-Black', sans-serif;
+        font-size: 16px;
+    }
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 20%;
+}
+
+.fa:hover {
+    opacity: 0.5;
+}
+
+.fa-instagram {
+    background: #E4C0CE;
+    color: white;
+}
+
+.fa-linkedin {
+  background: #E4C0CE;
+  color: white;
+}
+
+.Contact-Column-2{
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+}
+
+.Contact-Column-2>h3{
+    font-family: 'Arial-Black', sans-serif;
+    color: #AEBDB0;
+    font-size: 30px;
+}
+
+.Contact-Column-2>form>label{
+    font-family: 'Arial', sans-serif;
+    color: #565052;
+    font-size: 12px;
+}
+
+input[type=text], select, textarea {
+    font-family: 'Arial', sans-serif;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-width: 2px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #ECEDEC;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #AEBDB0;
+    color: #AEBDB0;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #AEBDB0;
+    color: white;
+}
+    /* About Me Homepage Information */
+
+    /* Contact Information */
+    .ThinPinkStrip{
+        height: 1px;
+        /*margin-left: 20px;
+        margin-right: 20px;*/
+        background-color: #E4C0CE;
+        width: 100%;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #E4C0CE;
+    }
+
+    .ThinPinkStrip{
+        height: 1px;
+        /*margin-left: 20px;
+        margin-right: 20px;*/
+        background-color: #E4C0CE;
+        width: 100%;
+        font-weight: bold;
+        font-family: 'Raleway', sans-serif;
+        color: #E4C0CE;
+        padding:0;
+    }
+
+    #Email{
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        color: grey;
+        font-size: 12px;
+        position: relative;
+        float: left;
+        margin-left: 10px;
+    }
+
+    #EmailPic{
+        height: 15px;
+        display: inline-block;
+    }
+
+    #Phone{
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        color: grey;
+        font-size: 12px;
+        position: relative;
+        float: left;
+        margin-left: 10px;
+    }
+
+
+    #PhonePic{
+        height: 20px;
+        display: inline-block;
+    }
+
+    #Resume{
+        display: inline-block;
+        font-family: 'Raleway', sans-serif;
+        color: grey;
+        position: relative;
+        float: left;
+    }
+
+.Resume{
+    height: 100%;
+    display: block;
+}
+
+.ResumePic{
+    height: 100%;
+    margin: 2%;
+}
+
+
+    #ResumePic{
+        height: 100%;
+        display: inline-block;
+    }
+    /* Contact Information */
+/* HOMEPAGE CODE */
+
+
 footer{
     padding: 0;
     margin-left: 0;
@@ -520,17 +692,208 @@ footer{
     opacity: 0.5;
 }
 
+@media screen and (min-width: 767px) {
+    .GridPicRow{
+        width: 30.8%;
 
-@media screen and (max-width: 1000px) {
-  .GridPicRow{
-    width: 48%;
+    }
+    
+    /* NAVBAR */
+    nav{
+        width: 100%;
+        display: inline-flex;
+        align-content: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .ColleenLogo{
+        display: block;
+        width: 150px;
+        text-align: center;
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    ul{
+        font-family: 'Arial', sans-serif;
+        font-size: 12px;
+        text-align: left;
+        width: 100%;
+        /*width: 47%;*/
+        margin-bottom: 15px;
+        padding: 0;
+        margin-top: 50px;
+
+    }
+
+    ul li{
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+    }
+
+    ul li a{
+        text-decoration: none;
+    }
+
+    ul li a:link{
+        color: #E4C0CE;
+        display: inline-block;
+    }
+
+    ul>.RightNavBar>li>a:link{
+        color: #AEBDB0;
+    }
+    
+    a:link{
+        color: #E4C0CE;
+        display: inline-block;
+        text-align: center;
+    }
+    
+    nav ul>.RightNavBar>li a:hover{
+        color: #565052;
+    }
+    
+    nav ul li a:hover{
+        color: #565052;
+    }
+    
+    nav ul li .active{
+        font-family: 'Arial-Black', sans-serif;
+        font-weight: bolder;
+        color: #565052;
+    }
+    
+    /* NAVBAR */
+    
+    .ProjectTitle{
+        color: white;
+        font-family: 'Arial-Black', sans-serif;
+        font-weight: bold;
+        font-size: 50px;
+        padding: 6%;
+    }
+    
+    .overlay { /* Project Images */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: black;  
+    }
+
 }
 
-@media screen and (max-width: 700px) {
-  .GridPicRow{
-    width: 100%;
+
+@media screen and (max-width: 766px) {
+    .GridPicRow{
+        width:47.5%;
+    }
+    
+    /* NAVBAR */ 
+    
+    nav{
+        width: 100%;
+    }
+    
+    .toggle{
+       display: inline-block; 
+        padding: 10px 20px;
+        color: #E4C0CE;
+        float: right;
+        box-sizing: border-box;
+        margin-top: 40px;
+        font-size: 26px;
+    } 
+    
+    img.ColleenLogo{
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        margin-left: 40%;
+    }
+    
+    
+    ul{
+        width: 100%;
+        display: none;
+        padding: 0;
+        font-size: 36px;
+        font-family: 'Arial-Black', sans-serif;
+    }
+    
+    ul li{
+        display: block;
+        text-align: center;
+    }
+    
+    ul li a{
+        text-decoration: none;
+    }
+
+    ul li a:link{
+        color: #E4C0CE;
+        display: inline-block;
+    }
+
+    ul>.RightNavBar>li>a:link{
+        color: #AEBDB0;
+    }
+    
+    nav ul>.RightNavBar>li a:hover{
+        color: #565052;
+    }
+    
+    nav ul li a:hover{
+        color: #565052;
+    }
+    
+    nav ul li .active{
+        font-family: 'Arial-Black', sans-serif;
+        font-weight: bolder;
+        font-size: 40px;
+        color: #565052;
+    }
+    
+    .active{
+        display: block;
+    }
+    
+    /* NAVBAR */
+    
+    .ProjectTitle{
+        color: white;
+        font-family: 'Arial-Black', sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        padding: 6%;
+        text-align: center;
+    }
+    
+    .overlay { /* Project Images */
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        opacity: 0.3;
+    }
 }
 
 
+        
+
+
+            
 
 
