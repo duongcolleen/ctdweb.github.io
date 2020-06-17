@@ -12,6 +12,15 @@ body{
         display: none;
     }
 
+    ul>.RightNavBar>li>a:visited{
+        color: #AEBDB0;
+    }
+    
+    ul li a:visited{
+        color: #E4C0CE;
+        display: inline-block;
+    }
+
 /* Header */
 
 /* Top Quote */
