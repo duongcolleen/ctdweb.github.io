@@ -1,5 +1,5 @@
 body{
-    background-color: #ECEDEC;
+    background-color: #E9E2DA;
     margin: 0;
 }
 
@@ -17,24 +17,55 @@ body{
     }
     
     ul li a:visited{
-        color: #E4C0CE;
+        color: white;
         display: inline-block;
     }
 
 /* Header */
 
 /* Top Quote */
-#centerquote{
-    text-align: center;
-    font-family: 'Arial-Black', sans-serif;
-    font-size: 24px;
-    color: #E4C0CE;
-    margin: 10% 10% 15% 10%
+#backgroundimage{
+    display: inline-flex;
+    width: 100%;
+    height: 82%;
+    float: right;
+    text-align: right;
+    justify-content: right;
 }
 
-#centerquote>b{
-    color: #AEBDB0;
+#leftquote{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    color: #515151;
+    margin: 10% 10% 15px 50px;
+    width: 35%;
+    position: absolute;
 }
+
+#COCO{
+    font-family: 'Raleway-Black', sans-serif;
+    font-weight:900;
+    font-size: 100px;
+    color: #CC6577;
+}
+
+#introductiontext{
+    font-family: 'Raleway-Black', sans-serif;
+    font-weight:900;
+    font-size: 15px;
+    color: #515151;
+}
+
+#centerquote{
+    text-align: center;
+    font-family: 'Raleway-Black', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #CC6577;
+    margin: 8% 10% 8% 10%
+}
+
 /* Top Quote */
 
 /* Separation of Work */
@@ -42,13 +73,38 @@ body{
         height: 1px;
         margin-left: 5%;
         margin-right: 5%;
-        background-color: #E4C0CE;
+        background-color: #CC6577;
     }
 /* Separation of Work */
 
 /* Body */
    
     /* PROJECT GRID */
+    .containergrid{
+        text-align: center;
+    }
+
+    .containergrid>img{
+        width: 23%;
+        padding: 5px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .containergrid>.GridPicRow{
+        width: 15%;
+        padding: 5px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .containergrid>.GridPicRowProject{
+        width: 15%;
+        padding: 5px;
+        text-align: center;
+        display: inline-block;
+    }
+
     .container { /* Project Images */
         position: relative;
         width: 100%;
@@ -56,7 +112,7 @@ body{
     }
 
     .container:hover .overlay {
-        opacity: 0.7;
+        opacity: 0.3; 
     }
 
     .ProjectPicture{
@@ -70,23 +126,33 @@ body{
 
  /* SPECIFIC PROJECTS */
     #ProjectTitle{
-        color: #525252;
-        font-family: 'Arial-black', sans-serif;
+        color: #CC6577;
+        font-family: 'Raleway-Black', sans-serif;
+        font-weight:900;
         font-size: 30px;
         margin-left: 2%;
         margin-top: 5%;
     }
 
+    #ProjectTitle-Sub{
+        color: #CC6577;
+        font-family: 'Raleway-Black', sans-serif;
+        font-weight:900;
+        font-size: 16px;
+        margin-left: 2%;
+        margin-top: 2%;
+    }
+
     #ProjectDetails{
         color: #777777;
         font-family: 'Arial', sans-serif;
-        font-size: 10px; 
+        font-size: 12px; 
         margin-left: 2%;
     }
 
     #ProjectInfo{
         color: #525252;
-        font-family: 'Arial', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-weight: medium;
         font-size: 12px; 
         margin-left: 2%;
@@ -114,7 +180,7 @@ body{
     .SpecificProjectTitle{
         margin: 20px;
         padding: 10px;
-        background-color: #E4C0CE;
+        background-color: #CC6577;
         font-family: 'Raleway', sans-serif; 
         font-size: 20px;
         text-align: center;
@@ -159,6 +225,24 @@ body{
         display: inline-block;
     }
 
+    .CompanyPictures{
+        text-align: left;
+    }
+
+    .CompanyPictures>img{
+        width: 50%;
+        padding: 5px;
+        text-align: center;
+        display: inline-flex;
+        object-fit: contain;
+    }
+
+    .CompanyPictures>.GridPicRow{
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+        display: inline-flex;
+    }
 
     .GridProjectPicture-SuperSmall{
         text-align: center;
@@ -190,7 +274,7 @@ body{
     /* Art grid */
 
     #SectionTitle{
-        color: #E4C0CE;
+        color: #CC6577;
         font-size: 16px;
         font-weight: bolder;
     }
@@ -199,14 +283,14 @@ body{
         margin-left: 2%;
         margin-right: 2%;
         text-align: left;
-        font-family: 'Arial', sans-serif;
-        color: #565052;
+        font-family: 'Raleway', sans-serif;
+        color: #515151;
         font-size: 12px;
     }
 
     .ProjectDescrip>center>a:hover{
-        font-family: 'Arial', sans-serif;
-        color: #565052;
+        font-family: 'Raleway', sans-serif;
+        color: #515151;
     }
 
     .ProjectCaption{
@@ -286,10 +370,42 @@ body{
             align-content: center;
         }
 
+        .GridPicRow-OnlyLook{
+            display: inline-block;
+            width: 32%;
+            margin: 5px;
+            align-content: center;
+        }
+
         .gridPicRow:hover .ImgPic{
             opacity: 0.8;
             transform: scale(1.02);
             transition: .5s ease;
+        }
+
+        .GridPicProject{
+            width: 96%; 
+            padding-bottom: 15px; 
+            padding-top: 5px;
+            float: left;
+            margin-left: 2%;
+            margin-right: 2%;
+            text-align: center;
+        }
+
+        .GridPicRowProject{
+            display: inline-block;
+            width: 32%;
+            margin: 5px;
+            align-content: center;
+        }
+
+        .gridPicRowProject:hover .ImgPic{
+            opacity: 0.8;
+            transform: scale(1.02);
+            transition: .5s ease;
+            border-radius: 10px;
+            /* border: 5px solid #CC6577; */
         }
 
         .ImgPic{
@@ -308,12 +424,12 @@ body{
         }
 
         .IllustrationDescrip>i>b{
-            color: #E4C0CE;
+            color: #CC6577;
             font-style:normal;
         }
 
         .IllustrationDescrip>i>p>b{
-            color: #E4C0CE;
+            color: #CC6577;
             font-style:normal;
         }
 
@@ -364,13 +480,13 @@ body{
 }
 
 .container-2>a{
-    color: #E4C0CE;
+    color: #CC6577;
     font-family: 'Arial', sans-serif;
     size: 12px;
 }
 
 .container-2>#Projecttitle>a{
-    color: #E4C0CE;
+    color: #CC6577;
     font-family: 'Arial-black', sans-serif;
 }
 
@@ -406,7 +522,7 @@ body{
 .container-2>.codeinfo>u{
     text-align: left;
     font-family: 'Raleway', sans-serif;
-    color: #E4C0CE;
+    color: #CC6577;
 }
 
 .container-2>.codeinfo>a:hover{
@@ -415,7 +531,7 @@ body{
 }
 
 .container-2>.codeinfo>p>b{
-    color: #E4C0CE;
+    color: #CC6577;
     font-size: 14px;
     font-weight: 700;
 }
@@ -457,11 +573,11 @@ body{
     }
 
     #AboutText b{
-        color: #E4C0CE;
+        color: #CC6577;
     }
 
     #AboutText>p>a{
-        color:#E4C0CE;
+        color:#CC6577;
         text-decoration: none;
         font-family: 'Arial-black', sans-serif;
     }
@@ -472,8 +588,17 @@ body{
     }
 
     #OpeningAboutText{
-        color: #AEBDB0;
-        font-family: 'Arial-Black', sans-serif;
+        color: #515151;
+        font-family: 'Raleway-Black', sans-serif;
+        font-weight: 900px;
+        font-size: 20px;
+    }
+
+    #OpeningAboutText>b{
+        color: #CC6577;
+        font-family: 'Raleway-Black', sans-serif;
+        font-weight: 900px;
+        font-size: 20px;
     }
 
     #Copyright{
@@ -490,8 +615,8 @@ body{
         background-color: #ECEDEC;
         border-style: solid;
         border-width: 2px;
-        border-color: #AEBDB0;
-        color: #AEBDB0;
+        border-color: #CC6577;
+        color: #CC6577;
         padding: 10px 15px;
         text-align: center;
         text-decoration: none;
@@ -499,11 +624,11 @@ body{
         font-size: 12px;
         margin: 4px 2px;
         cursor: pointer;
-        border-radius: 20px;
+        border-radius: 10px;
     }
 
     .button:hover{
-        background: #AEBDB0;
+        background: #CC6577;
         color: white;
     }
 
@@ -536,17 +661,24 @@ body{
 }
 
 .fa:hover {
-    opacity: 0.5;
+        background: #CC6577;
+        color: white;
 }
 
 .fa-instagram {
-    background: #E4C0CE;
-    color: white;
+        background-color: #ECEDEC;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #CC6577;
+        color: #CC6577;
 }
 
 .fa-linkedin {
-  background: #E4C0CE;
-  color: white;
+        background-color: #ECEDEC;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #CC6577;
+        color: #CC6577;
 }
 
 .Contact-Column-2{
@@ -608,22 +740,22 @@ input[type=submit]:hover {
         height: 1px;
         /*margin-left: 20px;
         margin-right: 20px;*/
-        background-color: #E4C0CE;
+        background-color: #CC6577;
         width: 100%;
         font-weight: bold;
         font-family: 'Raleway', sans-serif;
-        color: #E4C0CE;
+        color: #CC6577;
     }
 
     .ThinPinkStrip{
         height: 1px;
         /*margin-left: 20px;
         margin-right: 20px;*/
-        background-color: #E4C0CE;
+        background-color: white;
         width: 100%;
         font-weight: bold;
         font-family: 'Raleway', sans-serif;
-        color: #E4C0CE;
+        color: #CC6577;
         padding:0;
     }
 
@@ -693,7 +825,8 @@ footer{
 
 #FooterImage{
     text-align: center;
-    width: 100%;
+    width: 15%;
+    margin-bottom: 10%
 }
 
 #FooterImage2{
@@ -708,32 +841,47 @@ footer{
 
     }
     
+    .GridPicRowProject{
+        width: 30.8%;
+
+    }
+    
+    .GridPicRow-OnlyLook{
+        width: 30.8%;
+
+    }
+    
     /* NAVBAR */
     nav{
         width: 100%;
         display: inline-flex;
+        text-align: center;
         align-content: center;
         justify-content: center;
-        margin-top: 10px;
+        margin-top: 0px;
+        background-color: #CC6577;
     }
     
     .ColleenLogo{
         display: block;
-        width: 150px;
-        text-align: center;
+        width: 200px;
         display: inline-block;
         justify-content: center;
+        margin-top: 45px;
+        margin-left: 20%;
+        
     }
     
     ul{
-        font-family: 'Arial', sans-serif;
-        font-size: 12px;
-        text-align: left;
+        font-family: 'Raleway', sans-serif;
+        font-size: 16px;
+        text-align: right;
         width: 100%;
         /*width: 47%;*/
-        margin-bottom: 15px;
-        padding: 0;
-        margin-top: 50px;
+        margin-bottom: 0px;
+        padding: 30;
+        margin-top: 20px;
+        word-spacing: 30px;
 
     }
 
@@ -748,7 +896,7 @@ footer{
     }
 
     ul li a:link{
-        color: #E4C0CE;
+        color: white;
         display: inline-block;
     }
 
@@ -757,7 +905,7 @@ footer{
     }
     
     a:link{
-        color: #E4C0CE;
+        color: #CC6577;
         display: inline-block;
         text-align: center;
     }
@@ -767,17 +915,23 @@ footer{
     }
     
     nav ul li a:hover{
-        color: #565052;
+        color: white;
+        font-weight: bolder; 
+        stroke: #F88282;
+        stroke-width: 1;
+        filter: drop-shadow(2px 2px 2px black);
     }
     
     nav ul li .active{
-        font-family: 'Arial-Black', sans-serif;
-        font-weight: bolder;
-        color: #565052;
+        color: white;
+        font-weight: bolder; 
+        stroke: #F88282;
+        stroke-width: 1;
+        text-decoration: underline;
     }
     
     ul>.RightNavBar>li>.active{
-        font-family: 'Arial-Black', sans-serif;
+        font-family: 'Raleway', sans-serif;
         font-weight: bolder;
         color: #565052;
     }
@@ -785,13 +939,14 @@ footer{
     
     /* NAVBAR */
     
-    .ProjectTitle{
+    /*.ProjectTitle{
         color: white;
-        font-family: 'Arial-Black', sans-serif;
-        font-weight: bold;
-        font-size: 50px;
-        padding: 6%;
-    }
+        font-family: 'Raleway-Black', sans-serif;
+        font-weight: 900;
+        text-align: center;
+        font-size: 100px;
+        padding: 5%;
+    }*/
     
     .overlay { /* Project Images */
         position: absolute;
@@ -803,7 +958,7 @@ footer{
         width: 100%;
         opacity: 0;
         transition: .5s ease;
-        background-color: black;  
+        background-color: white;  
     }
 
 }
@@ -812,6 +967,20 @@ footer{
 @media screen and (max-width: 812px) {
     .GridPicRow{
         width:47.5%;
+        position: relative;
+    }
+    
+    .GridPicRow-Text{
+        text-align: center;
+    }
+    
+    .GridPicRowProject{
+        width:47.5%;
+        position: relative;
+    }
+    
+    .GridPicRowProject-Text{
+        text-align: center;
     }
     
     /* NAVBAR */ 
@@ -823,7 +992,7 @@ footer{
     .toggle{
        display: inline-block; 
         padding: 10px 20px;
-        color: #E4C0CE;
+        color: #CC6577;
         float: right;
         box-sizing: border-box;
         margin-top: 40px;
@@ -856,7 +1025,7 @@ footer{
     }
 
     ul li a:link{
-        color: #E4C0CE;
+        color: #CC6577;
         display: inline-block;
     }
 
